@@ -1,0 +1,22 @@
+{
+  "name": "demo-actions-app",
+  "version": "1.0.0",
+  "description": "demonstrating some github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jelkand/demo-actions-app.git"
+  },
+  "author": "jelkand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jelkand/demo-actions-app/issues"
+  },
+  "homepage": "https://github.com/jelkand/demo-actions-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
