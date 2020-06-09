@@ -1,5 +1,4 @@
 const express = require('express');
-const faker = require('faker');
 const cors = require('cors');
 const _ = require('lodash');
 
@@ -14,8 +13,6 @@ app.get('/npcs', function (req, res) {
 
 app.get('/', (_, res) => res.send('Hello World!'));
 
-const server = app.listen(port, () =>
-  console.log(`NPC generator listening on port ${port}`)
-);
+const server = app.listen(port);
 
 module.exports = { app, server };
