@@ -4,7 +4,7 @@
   "description": "demonstrating some github actions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/jelkand/demo-actions-app#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "jest": "^26.0.1",
+    "lodash": "^4.17.15",
+    "supertest": "^4.0.2"
   }
 }
