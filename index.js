@@ -5,7 +5,7 @@ const _ = require('lodash');
 const { generateNpc } = require('./npcGenerator');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 80;
 
 app.use(cors());
 
